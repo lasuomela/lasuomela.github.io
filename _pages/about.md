@@ -1,25 +1,34 @@
 ---
 layout: about
-title: about
+title:
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: # >
+   # <i class="ai ai-google-scholar ai-2x"></i> <a href='https://scholar.google.com/citations?user=QoV3BdEAAAAJ'>Scholar</a> <p></p>
+   # <i class="fab fa-github fa-2x"></i> <a href='https://github.com/lasuomela'>Github</a> <p></p>
+   # <i class="fab fa-twitter fa-2x"></i> <a href='https://twitter.com/Suomela_L'>Twitter</a> <p></p>
+   # <i class="fab fa-linkedin fa-2x"></i> <a href='https://www.linkedin.com/in/laurisuomela/'>Linkedin</a> <p></p>
 
-news: true  # includes a list of news items
+
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a doctoral student at [Computer Vision Group, Tampere University, Finland](https://research.tuni.fi/vision/). My work focuses on computer vision methods for autonomous robot navigation, which I investigate under the supervision of [Prof. Joni Kämäräinen](https://scholar.google.fi/citations?user=r6Y4nacAAAAJ&hl=en) and [Prof. Harry Edelman](https://www.linkedin.com/in/harryedelman/). The long-term goal of my research is to enable long-term autonomy for robots operating in GPS-denied environments.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before the doctoral studies, I completed an MSc. Tech degree at the Tampere University. During my studies, I did a research internship at Intel under the supervision of [Dr. Jarno Nikkanen](https://www.linkedin.com/in/jarno-nikkanen-a37a312/), investigating [machine learning approaches to camera control](https://scholar.google.com/citations?view_op=view_citation&hl=fi&user=QoV3BdEAAAAJ&citation_for_view=QoV3BdEAAAAJ:u5HHmVD_uO8C).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<i class="fa fa-envelope fa-1x"><a href='mailto:lauri.a.suomela@tuni.fi'> Email &nbsp; </a>
+<i class="ai ai-google-scholar ai-1x"></i><a href='https://scholar.google.com/citations?user=QoV3BdEAAAAJ'>Scholar &nbsp; </a>
+<i class="fab fa-github fa-1x"></i>
+<a href='https://github.com/lasuomela'>Github &nbsp; </a>
+<i class="fab fa-twitter fa-1x"></i>
+<a href='https://twitter.com/Suomela_L'>Twitter &nbsp; </a>
+<i class="fab fa-linkedin fa-1x"></i>
+<a href='https://www.linkedin.com/in/laurisuomela/'>Linkedin</a>
