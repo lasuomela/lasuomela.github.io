@@ -89,8 +89,8 @@ The best performing combination is that of SuperPoint and NetVLAD, followed by S
 </center>
 
 SuperPoint, that achieves the lowest failure rates in different illumination conditions, also achieves the lowest failure rate for a given recall rate. There is a certain operation point, determined by odometry drift, after which changes in the recall rate become meaningless for autonomous navigation. Especially the second finding is interesting as it shows that visual localization performance needs to be sufficiently good in order to improve over wheel odometry only.
-For Town01, the recall rate of a method at threshold T1 has to be above 60\% to benefit navigation.
-In other words, improving recall from 40\% to 50\% is almost meaningless while improvement from 60\% to 70\% is clearly significant.
+For Town01, the recall rate of a method at threshold T1 has to be above 60% to benefit navigation.
+In other words, improving recall from 40% to 50% is almost meaningless while improvement from 60% to 70% is clearly significant.
 
 <br>
 ### BibTex
