@@ -231,7 +231,7 @@ scholar:
   last_name: [Suomela]
   first_name: [Lauri, L.]
 
-  style: apa
+  style: bibtex
   locale: en
 
   source: /_bibliography/

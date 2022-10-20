@@ -24,6 +24,8 @@ I am a doctoral student at [Computer Vision Group, Tampere University, Finland](
 
 Before the doctoral studies, I completed an MSc. Tech degree at the Tampere University. During my studies, I did a research internship at Intel under the supervision of [Dr. Jarno Nikkanen](https://www.linkedin.com/in/jarno-nikkanen-a37a312/), investigating [machine learning approaches to camera control](https://scholar.google.com/citations?view_op=view_citation&hl=fi&user=QoV3BdEAAAAJ&citation_for_view=QoV3BdEAAAAJ:u5HHmVD_uO8C).
 
+
+
 <i class="fa fa-envelope fa-1x"><a href='mailto:lauri.a.suomela@tuni.fi'> Email &nbsp; </a>
 <i class="ai ai-google-scholar ai-1x"></i><a href='https://scholar.google.com/citations?user=QoV3BdEAAAAJ'>Scholar &nbsp; </a>
 <i class="fab fa-github fa-1x"></i>
