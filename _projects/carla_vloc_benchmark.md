@@ -30,8 +30,11 @@ This work introduces a simulator-based benchmark for visual localization in the 
 Visual localization is an active research topic in computer vision, but usually the localization methods are evaluated using static datasets and it is unclear how well the methods work when the visual localization output is used for closed-loop control. As a solution we present a benchmark which enables easy experimentation with different visual localization methods as part of a navigation stack. The platform enables investigating various factors that affect visual localization and subsequent navigation performance. The benchmark is based on the Carla autonomous driving simulator and our [ROS2 port](https://github.com/lasuomela/visual_robot_localization) of the [Hloc](https://github.com/cvg/Hierarchical-Localization) visual localization toolbox.
 
 
-
-<iframe width="750" height="450" src="https://www.youtube.com/embed/qgFp68cqqd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrap">
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/qgFp68cqqd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
 
 <br>
 <br>
