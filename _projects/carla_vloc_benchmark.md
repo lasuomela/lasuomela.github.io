@@ -14,10 +14,13 @@ category:
 
 ---
 
+
 <div class="row">
+<div class="container lazy" data-lazy-placeholder="https://placehold.it/1321x583?text=Loading" data-lazy-error="https://placehold.it/1321x583?text=Error">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/carla_vloc_benchmark/carla.webp" title="Navigation with visual localization" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
 </div>
 <br>
 
