@@ -109,10 +109,13 @@ In other words, improving recall from 40% to 50% is almost meaningless while imp
 <br>
 ### BibTex
 
-    @inproceedings{
-        title     = {Benchmarking Visual Localization for Autonomous Navigation},
-        author    = {Suomela, Lauri and Kalliola, Jussi and Dag, Atakan and Edelman, Harry and Kämäräinen, Joni-Kristian},
-        booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-        year      = {2023},
-        url = {https://arxiv.org/abs/2203.13048}
+    @InProceedings{Suomela_2023_WACV,
+    author    = {Suomela, Lauri and Kalliola, Jussi and Dag, Atakan and Edelman, Harry and Kämäräinen, Joni-Kristian},
+    title     = {Benchmarking Visual Localization for Autonomous Navigation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {2945-2955}
     }
+
+    
