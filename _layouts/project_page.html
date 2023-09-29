@@ -9,10 +9,11 @@ layout: default
             <center>
             <p class="post-description"> </p>
             <h1 class="post-title">{{ page.title }}</h1>
+            {% if page.venue %}
             <h3 class="project-venue" style="color:rgb(136, 136, 136);">{{ page.venue }}<br><br></h3>
+            {% endif %}
 
             <h5 class="project-authors">
-
 
               {% for coauthor_id in page.coauthors %}
                 {% if site.data.coauthors contains coauthor_id %}
@@ -27,8 +28,8 @@ layout: default
             {% if page.arxiv %}
             <a href={{ page.arxiv }} class="project">
             <div class="block" style="width: 100px;">
-              <i class="fa fa-file-pdf fa-2x"></i><br>
-               Paper
+              <i class="ai ai-arxiv ai-2x"></i><br>
+               Arxiv
             </div>
             </a>
             {% endif %}

@@ -7,7 +7,6 @@
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
-            <!--
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
               {%- endif -%}
@@ -20,7 +19,6 @@
             {%- else -%}
               {{- site.title -}}
             {%- endif -%}
-          -->
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -110,4 +108,12 @@
           </div>
         </div>
       </nav>
+{% if site.enable_progressbar %}
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+{%- endif %}
     </header>
