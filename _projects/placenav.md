@@ -4,8 +4,8 @@ title: PlaceNav&#58; Topological Navigation through Place Recognition
 permalink: /placenav/
 coauthors: [Suomela, Kalliola, Edelman, Kämäräinen]
 affliations: Tampere University
-arxiv: https://arxiv.org/abs/
-github: https://github.com/lasuomela/placenav 
+arxiv: https://arxiv.org/abs/2309.17260
+github: https://github.com/lasuomela/placenav
 img: /assets/img/publication_preview/carla.gif
 importance: 1
 category:
@@ -72,6 +72,6 @@ PlaceNav enables repeating previously traversed routes with RGB-images only. The
     title     = {PlaceNav: Topological Navigation through Place Recognition},
     booktitle = {arXiv pre-print},
     year      = {2023},
-    url       = {},
+    url       = {https://arxiv.org/abs/2309.17260},
     }
 
