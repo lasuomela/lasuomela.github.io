@@ -20,6 +20,8 @@ category:
 </div>
 </div>
 
+<hr>
+
 <br>
 <h2 style="text-align: center;">Abstract</h2>
 
@@ -37,10 +39,34 @@ Bayesian filtering, enabled by place recognition, further improves navigation pe
 Our experimental results verify the design and the new model obtains a 76% higher success rate in indoor and 23% higher in outdoor navigation tasks with higher computational efficiency.
 </p>
 
+<br>
+
+
 <hr>
+<h2 style="text-align: center;">Navigation examples</h2>
+<div class="video-wrap">
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/g-MZbf68Dlc" title="PlaceNav navigation examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+
+<hr>
+
 <h2 style="text-align: center;">System</h2>
 <p style="text-align: justify;">
-PlaceNav enables repeating previously traversed routes with RGB-images only. The robot first retrieves a 'subgoal' image from a saved traversal by place recognition. Then, it navigates to the subgoal using an image-based goal-reaching policy trained with offline data.
+Topological navigation enables a robot to navigate without metric maps. The robot first localizes by retrieving a 'subgoal' image from a recorded previous traversal of the route. Then, it navigates to the subgoal using an image-based goal-reaching policy.
+</p>
+<br>
+<div class="row justify-content-center">
+    <div class="col-sm d-flex justify-content-center align-items-center">
+        {% include figure.html path="assets/img/placenav/toponav_idea.webp" title="Navigation with visual localization" class="img-fluid rounded z-depth-0" %}
+    </div>
+</div>
+<br>
+<p style="text-align: justify;">
+
+PlaceNav conducts the subgoal selection using place recognition. This is more efficient compared to the previous approaches, and increases the amount of available training data by enabling the use of large-scale datasets from non-robotics sources.
+
 </p>
 <br>
 <div class="row">
@@ -54,14 +80,6 @@ PlaceNav enables repeating previously traversed routes with RGB-images only. The
 </div>
 </div>
 
-<hr>
-<br>
-<h2 style="text-align: center;">Navigation examples</h2>
-<div class="video-wrap">
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/g-MZbf68Dlc" title="PlaceNav navigation examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-</div>
 
 
 <br>
