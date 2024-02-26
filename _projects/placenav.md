@@ -4,6 +4,7 @@ title: PlaceNav&#58; Topological Navigation through Place Recognition
 permalink: /placenav/
 coauthors: [Suomela, Kalliola, Edelman, Kämäräinen]
 affliations: Tampere University
+venue: ICRA 2024
 arxiv: https://arxiv.org/abs/2309.17260
 github: https://github.com/lasuomela/placenav
 img: /assets/img/publication_preview/carla.gif
@@ -46,7 +47,7 @@ Our experimental results verify the design and the new model obtains a 76% highe
 <h2 style="text-align: center;">Navigation examples</h2>
 <div class="video-wrap">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/g-MZbf68Dlc" title="PlaceNav navigation examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/4dzoRZrBsYw" title="PlaceNav navigation examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -85,11 +86,11 @@ PlaceNav conducts the subgoal selection using place recognition. This is more ef
 <br>
 ### BibTex
 
-    @InProceedings{Suomela_2023_Placenav,
+    @InProceedings{Suomela_2024_Placenav,
     author    = {Suomela, Lauri and Kalliola, Jussi and Edelman, Harry and Kämäräinen, Joni-Kristian},
     title     = {PlaceNav: Topological Navigation through Place Recognition},
-    booktitle = {arXiv pre-print},
-    year      = {2023},
+    booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+    year      = {2024},
     url       = {https://arxiv.org/abs/2309.17260},
     }
 

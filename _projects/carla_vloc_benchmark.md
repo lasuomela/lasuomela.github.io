@@ -37,7 +37,6 @@ Visual localization is an active research topic in computer vision, but usually 
     <iframe src="https://www.youtube.com/embed/bAW3nfqSh2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
-
 <br>
 <br>
 
