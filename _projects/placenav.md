@@ -42,12 +42,11 @@ Our experimental results verify the design and the new model obtains a 76% highe
 
 <br>
 
-
 <hr>
-<h2 style="text-align: center;">Navigation examples</h2>
+<h2 style="text-align: center;">Presentation</h2>
 <div class="video-wrap">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/4dzoRZrBsYw" title="PlaceNav navigation examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/IzP3hlO_C6Y?si=8MP39awiuQ2cbD0J" title="Presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -81,6 +80,16 @@ PlaceNav conducts the subgoal selection using place recognition. This is more ef
 </div>
 </div>
 
+
+<hr>
+<h2 style="text-align: center;">Navigation examples</h2>
+<div class="video-wrap">
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/4dzoRZrBsYw" title="PlaceNav navigation examples" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+
+<hr>
 
 
 <br>
