@@ -15,12 +15,22 @@ layout: default
 
             <h5 class="project-authors">
 
-              {% for coauthor_id in page.coauthors %}
+                {% assign coauthor_count = 0 %}
+                {% for coauthor_id in page.coauthors %}
                 {% if site.data.coauthors contains coauthor_id %}
                   {% assign coauthor_data = site.data.coauthors[coauthor_id][0] %}
-                  <a href="{{coauthor_data.url}}">{{coauthor_data.firstname[0]}} {{coauthor_id}}</a>{% if coauthor_id != page.coauthors.last %}, {% endif %}
+                  <a href="{{coauthor_data.url}}">{{coauthor_data.firstname[0]}} {{coauthor_id}}</a>
+                  {% assign coauthor_count = coauthor_count | plus: 1 %}
+                  {% if coauthor_count < 3 and coauthor_id != page.coauthors.last %}
+                   · 
+                  {% endif %}
+                  {% if coauthor_count == 3 %}
+                  <br>
+                  <br>
+                  {% assign coauthor_count = 0 %}
+                  {% endif %}
                 {% endif %}
-              {% endfor %}
+                {% endfor %}
               <br> <br><em>{{ page.affliations }}</em><br><br>
             </h5>
             
@@ -46,6 +56,14 @@ layout: default
             <div class="block" style="width: 100px;">
               <i class="fa fa-file-pdf fa-2x"></i><br>
               Supplementary
+            </div>
+            </a>
+            {% endif %}
+            {% if page.huggingface_models %}
+            <a href={{ page.huggingface_models }} class="project"> 
+            <div class="block" style="width: 100px;">
+              <span style="font-size:150%;text-align: center;">🤗</span><br>
+              Models
             </div>
             </a>
             {% endif %}
