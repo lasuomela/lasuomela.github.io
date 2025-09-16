@@ -5,7 +5,7 @@ permalink: /faint/
 coauthors: [Suomela, Kuruppu Arachchige, Torres, Edelman, Kämäräinen]
 affliations: Tampere University
 venue: 'CoRL 2025 Workshop on Making Sense of Data in Robotics'
-arxiv: ''
+arxiv: 'https://arxiv.org/abs/2509.11791'
 github: https://github.com/lasuomela/faint
 huggingface_models: https://huggingface.co/collections/lauriasuo/faint-67b71dbaf71f1b648986f382
 img: /assets/img/publication_preview/carla.gif
@@ -52,7 +52,7 @@ Our results highlight the importance of diverse image encoder pretraining for si
     @InProceedings{suomela2025synthetic,
       title={Synthetic vs. Real Training Data for Visual Navigation},
       author={Suomela, Lauri and Kuruppu Arachchige, Sasanka and Torres, German F. and Edelman, Harry and Kämäräinen, Joni-Kristian}
-      journal={arXiv:},
+      journal={arXiv:2509.11791},
       year={2025}
     }
 
