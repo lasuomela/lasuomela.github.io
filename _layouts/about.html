@@ -26,7 +26,9 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
-              alt=page.profile.image
+              loading="eager"
+              avoid_scaling=true
+              alt="Profile image"
               cache_bust=true -%}
             {% endif -%}
             {%- if page.profile.address %}

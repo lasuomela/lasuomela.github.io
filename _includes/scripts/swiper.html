@@ -1,0 +1,13 @@
+{% if page.images.slider %}
+<script
+    defer
+    src="{{ site.third_party_libraries.swiper.url.js }}"
+    integrity="{{ site.third_party_libraries.swiper.integrity.js }}"
+    crossorigin="anonymous"
+></script>
+
+<link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-element-bundle.min.js"></script>
+{% endif %}

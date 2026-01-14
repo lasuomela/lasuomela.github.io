@@ -1,27 +1,41 @@
 "Suomela":
   - firstname: ["Lauri", "L."]
     url: https://lasuomela.github.io
+    affiliation: "Tampere University"
+
+"Takahata":
+  - firstname: ["Naoki", "N."]
+    url: https://www.linkedin.com/in/naoki-takahata-a122a7263/
+    affiliation: "Tohoku University"
+
 
 "Kalliola":
   - firstname: ["Jussi", "J."]
     url: https://www.linkedin.com/in/jussi-kalliola-0b0b71112
+    affiliation: "Tampere University"
+
 
 "Dag":
   - firstname: ["Atakan", "A."]
     url: https://www.linkedin.com/in/atakandag/ 
+    affiliation: "Tampere University"
 
 "Edelman":
   - firstname: ["Harry", "H."]
     url: https://www.linkedin.com/in/harryedelman/
+    affiliation: "Turku University of Applied Sciences"
 
 "Kämäräinen":
   - firstname: ["Joni-Kristian", "JK."]
     url: https://scholar.google.fi/citations?user=r6Y4nacAAAAJ&hl=en 
+    affiliation: "Tampere University"
 
 "Kuruppu Arachchige":
   - firstname: ["Sasanka", "S."]
     url: https://github.com/SasaKuruppuarachchi
+    affiliation: "Tampere University"
 
 "Torres":
   - firstname: ["German F.", "G.F."]
     url: https://germanftv.github.io/
+    affiliation: "Tampere University"

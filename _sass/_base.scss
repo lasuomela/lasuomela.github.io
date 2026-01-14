@@ -1063,4 +1063,46 @@ nav[data-toggle="toc"] {
     margin-bottom: 0;
     padding-top: 0.5rem;
   }
+
+}
+swiper-container {
+    --swiper-navigation-color: var(--global-theme-color);
+    --swiper-navigation-size: 60px;
+    --swiper-pagination-color: var(--global-theme-color);
+    --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+    --swiper-pagination-bullet-size: 20px;
+    --swiper-pagination-bullet-inactive-opacity: 0.7;
+    --swiper-pagination-bottom: 10px;
+  }
+
+/* A wrapper that provides "gutters" for the arrows */
+.swiper-wrap{
+  position: relative;
+  padding: 0 3rem;      /* space left+right for arrows */
+  overflow: visible;    /* just in case */
+}
+
+/* Keep swiper itself visible */
+.swiper-wrap swiper-container{
+  display: block;
+  overflow: visible;
+}
+
+/* Put arrows in the wrapper gutters */
+.swiper-wrap swiper-container::part(button-prev){
+  left: -5px;              /* inside left padding area */
+}
+
+.swiper-wrap swiper-container::part(button-next){
+  right: -5px;             /* inside right padding area */
+}
+
+/* Optional: ensure they’re visible/clickable */
+.swiper-wrap swiper-container::part(button-prev),
+.swiper-wrap swiper-container::part(button-next){
+  opacity: 1;
+  pointer-events: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
 }

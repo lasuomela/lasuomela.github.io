@@ -13,26 +13,76 @@ layout: default
             <h3 class="project-venue" style="color:rgb(136, 136, 136);">{{ page.venue }}<br><br></h3>
             {% endif %}
 
-            <h5 class="project-authors">
+<h5 class="project-authors">
 
-                {% assign coauthor_count = 0 %}
-                {% for coauthor_id in page.coauthors %}
-                {% if site.data.coauthors contains coauthor_id %}
-                  {% assign coauthor_data = site.data.coauthors[coauthor_id][0] %}
-                  <a href="{{coauthor_data.url}}">{{coauthor_data.firstname[0]}} {{coauthor_id}}</a>
-                  {% assign coauthor_count = coauthor_count | plus: 1 %}
-                  {% if coauthor_count < 3 and coauthor_id != page.coauthors.last %}
-                   · 
-                  {% endif %}
-                  {% if coauthor_count == 3 %}
-                  <br>
-                  <br>
-                  {% assign coauthor_count = 0 %}
-                  {% endif %}
-                {% endif %}
-                {% endfor %}
-              <br> <br><em>{{ page.affliations }}</em><br><br>
-            </h5>
+  {% assign coauthor_count = 0 %}
+  {% assign affiliation_list = "" | split: "" %}
+
+  {%- comment -%}
+  First pass: build clean, unique affiliation list
+  {%- endcomment -%}
+  {% for coauthor_id in page.coauthors %}
+    {% if site.data.coauthors contains coauthor_id %}
+      {% assign coauthor_data = site.data.coauthors[coauthor_id][0] %}
+      {% if coauthor_data.affiliation %}
+        {% assign aff = coauthor_data.affiliation | strip %}
+        {% unless affiliation_list contains aff %}
+          {% assign affiliation_list = affiliation_list | push: aff %}
+        {% endunless %}
+      {% endif %}
+    {% else %}
+      [Missing coauthor: {{ coauthor_id }}]
+    {% endif %}
+  {% endfor %}
+
+  {%- comment -%}
+  Second pass: render authors with superscripts
+  {%- endcomment -%}
+  {% for coauthor_id in page.coauthors %}
+    {% if site.data.coauthors contains coauthor_id %}
+      {% assign coauthor_data = site.data.coauthors[coauthor_id][0] %}
+      {% assign aff = coauthor_data.affiliation | strip %}
+      {% assign aff_index = nil %}
+
+      {% for aff_check in affiliation_list %}
+        {% if aff == aff_check %}
+          {% assign aff_index = forloop.index %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      <a href="{{ coauthor_data.url }}">{{ coauthor_data.firstname[0] }} {{ coauthor_id }}</a>
+      {% if aff_index %}
+        <sup>{{ aff_index }}</sup>
+      {% endif %}
+
+      {% assign coauthor_count = coauthor_count | plus: 1 %}
+      {% if coauthor_count < 3 and coauthor_id != page.coauthors.last %}
+        ·
+      {% endif %}
+      {% if coauthor_count == 3 %}
+        <br><br>
+        {% assign coauthor_count = 0 %}
+      {% endif %}
+    {% else %}
+      [Unknown author: {{ coauthor_id }}]
+    {% endif %}
+  {% endfor %}
+
+  <br><br>
+  <em>
+    {% for aff in affiliation_list %}
+      <sup>{{ forloop.index }}</sup> {{ aff }}{% unless forloop.last %} · {% endunless %}
+    {% endfor %}
+  </em>
+  <br><br>
+
+</h5>
+
+
+
+
+
             
             <div class="container" style="  display:flex;flex-wrap:wrap;justify-content:center;">
             {% if page.arxiv %}
