@@ -18,7 +18,7 @@ images:
 <div class="row">
 <div class="container lazy" data-lazy-placeholder="https://placehold.it/1321x583?text=Loading" data-lazy-error="https://placehold.it/1321x583?text=Error">
   <div class="col-12 mx-auto mt-3 mt-md-0">
-    {% include figure.html path="assets/img/nav_scaling/erc_pull-V4.jpg" title="Visual abstract" class="img-fluid z-depth-0" avoid_scaling=true %}
+    {% include figure.html path="assets/img/nav_scaling/erc_pull-V4.jpg" title="Visual abstract" class="img-fluid z-depth-0" avoid_scaling=true zoomable=true %}
   </div>
 </div>
 </div>
@@ -133,10 +133,10 @@ We trained policies with subsets of the total dataset, varying both the <b>numbe
 
 <div class="row g-0 justify-content-center">
   <div class="col-6 px-0 justify-content-center align-items-center">
-    {% include figure.html path="assets/img/nav_scaling/fixed_totH_success@1.png" caption="<i>Success rate</i> ($\uparrow$) as function of number of train locations, for <b>fixed amounts of total training data</b>." class="img-fluid rounded z-depth-0" %}
+    {% include figure.html path="assets/img/nav_scaling/fixed_totH_success@1.png" zoomable=true caption="<i>Success rate</i> ($\uparrow$) as function of number of train locations, for <b>fixed amounts of total training data</b>." class="img-fluid rounded z-depth-0" %}
   </div>
   <div class="col-6 px-0 justify-content-center align-items-center">
-    {% include figure.html path="assets/img/nav_scaling/fixed_NLoc_success@1.png" caption="<i>Success rate</i> ($\uparrow$) as function of training data per location, for <b>fixed numbers of training locations</b>." class="img-fluid rounded z-depth-0" %}
+    {% include figure.html path="assets/img/nav_scaling/fixed_NLoc_success@1.png" zoomable=true caption="<i>Success rate</i> ($\uparrow$) as function of training data per location, for <b>fixed numbers of training locations</b>." class="img-fluid rounded z-depth-0" %}
   </div>
 </div>
 
@@ -146,7 +146,7 @@ The results indicate that navigation performance scales well with the number of 
 
 <div class="row g-0 justify-content-center">
   <div class="col-9 px-0 justify-content-center align-items-center">
-    {% include figure.html path="assets/img/nav_scaling/scaling_law_Hours per Location.png" caption="Power law fits and correlation coefficients $r$ for <i>Total Dataset Size = 128H</i> and <i>Hours per Location = 16H</i> on a log-log scale." class="img-fluid rounded z-depth-0" %}
+    {% include figure.html path="assets/img/nav_scaling/scaling_law_Hours per Location.png" zoomable=true caption="Power law fits and correlation coefficients $r$ for <i>Total Dataset Size = 128H</i> and <i>Hours per Location = 16H</i> on a log-log scale." class="img-fluid rounded z-depth-0" %}
   </div>
 </div>
 
@@ -163,7 +163,7 @@ We also experimented with training on the full dataset. We compared the policy t
 </p>
 
 <div class="row g-0 justify-content-center">
-    {% include figure.html path="assets/img/nav_scaling/generalization_success@1.png" avoid_scaling=true caption="Policies trained with large-scale data achieve higher success rates compared to environment-specific policies. The zero-shot policy almost matches the policy that incorporates both large-scale data and data from the test environments." class="img-fluid rounded z-depth-0" %}
+    {% include figure.html path="assets/img/nav_scaling/generalization_success@1.png" zoomable=true avoid_scaling=true caption="Policies trained with large-scale data achieve higher success rates compared to environment-specific policies. The zero-shot policy almost matches the policy that incorporates both large-scale data and data from the test environments." class="img-fluid rounded z-depth-0" %}
 </div>
 
 <p></p>
