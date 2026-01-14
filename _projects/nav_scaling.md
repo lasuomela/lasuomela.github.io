@@ -6,7 +6,7 @@ coauthors: [Suomela, Takahata, Kuruppu Arachchige, Edelman, Kämäräinen]
 affliations: Tampere University
 venue:
 arxiv: 
-github: https://github.com/lasuomela/navigation_scaling
+github: https://github.com/lasuomela/NavigationScaling
 huggingface_models: 
 img: /assets/img/publication_preview/carla.gif
 importance: 1
