@@ -49,6 +49,12 @@ Our results show that large-scale training data enables zero-shot navigation in 
 <p style="text-align: justify;">
 We extract clean demonstrations from a raw 8,000 hour crowd-sourced dataset, and cluster the resulting 4,565 hours of navigation data into 161 distinct locations around the world. The locations span 35 countries and diverse environments, including urban, suburban, park, campus, and rural settings.
 </p>
+<p></p>
+<div class="row g-0 justify-content-center">
+  <div class="col-10 px-0 justify-content-center align-items-center">
+      {% include video.html loading="lazy" path="assets/img/nav_scaling/mosaic_level_63.mp4" caption="Examples from a subset of the training locations." class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
+  </div>
+</div>
 
 <p style="margin-bottom:50px;"></p>
 <h2 style="text-align: center;">Test locations</h2>
