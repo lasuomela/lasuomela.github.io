@@ -5,7 +5,7 @@ permalink: /navigation_scaling/
 coauthors: [Suomela, Takahata, Kuruppu Arachchige, Edelman, Kämäräinen]
 affliations: Tampere University
 venue:
-arxiv: 
+arxiv: https://arxiv.org/abs/2601.09444
 github: https://github.com/lasuomela/NavigationScaling
 huggingface_models: 
 img: /assets/img/publication_preview/carla.gif
@@ -202,10 +202,10 @@ We also experimented with training on the full dataset. We compared the policy t
 <p style="margin-bottom:50px;"></p>
 ### BibTex
 
-    @InProceedings{suomela2026data_scaling,
+    @misc{suomela2026data_scaling,
       title={Data Scaling for Navigation in Unknown Environments},
-      author={Suomela, Lauri and Takahata, Naoki and Kuruppu Arachchige, Sasanka and Edelman, Harry and Kämäräinen, Joni-Kristian}
-      journal={},
-      year={2026}
+      author={Suomela, Lauri and Takahata, Naoki and Kuruppu Arachchige, Sasanka and Edelman, Harry and Kämäräinen, Joni-Kristian},
+      journal={arXiv:2601.09444},
+      year={2026},
     }
 

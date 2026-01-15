@@ -49,7 +49,7 @@ Our results highlight the importance of diverse image encoder pretraining for si
 
 ### BibTex
 
-    @InProceedings{suomela2025synthetic,
+    @misc{suomela2025synthetic,
       title={Synthetic vs. Real Training Data for Visual Navigation},
       author={Suomela, Lauri and Kuruppu Arachchige, Sasanka and Torres, German F. and Edelman, Harry and Kämäräinen, Joni-Kristian}
       journal={arXiv:2509.11791},
