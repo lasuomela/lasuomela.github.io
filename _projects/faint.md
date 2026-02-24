@@ -4,7 +4,7 @@ title: Synthetic vs. Real Training Data for Visual Navigation
 permalink: /faint/
 coauthors: [Suomela, Kuruppu Arachchige, Torres, Edelman, Kämäräinen]
 affliations: Tampere University
-venue: 'CoRL 2025 Workshop on Making Sense of Data in Robotics'
+venue: 'ICRA 2026'
 arxiv: 'https://arxiv.org/abs/2509.11791'
 github: https://github.com/lasuomela/faint
 huggingface_models: https://huggingface.co/collections/lauriasuo/faint-67b71dbaf71f1b648986f382
@@ -15,7 +15,7 @@ category:
 
 <div class="row">
 <div class="container lazy" data-lazy-placeholder="https://placehold.it/1321x583?text=Loading" data-lazy-error="https://placehold.it/1321x583?text=Error">
-  <div class="col-12 mx-auto mt-3 mt-md-0">
+  <div class="col-6 mx-auto mt-3 mt-md-0">
     {% include figure.html path="assets/img/faint/pull_traj.png" title="Visual abstract" class="img-fluid z-depth-0" %}
   </div>
 </div>
@@ -49,10 +49,11 @@ Our results highlight the importance of diverse image encoder pretraining for si
 
 ### BibTex
 
-    @misc{suomela2025synthetic,
+    @InProceedings{suomela2026synthetic,
       title={Synthetic vs. Real Training Data for Visual Navigation},
-      author={Suomela, Lauri and Kuruppu Arachchige, Sasanka and Torres, German F. and Edelman, Harry and Kämäräinen, Joni-Kristian}
-      journal={arXiv:2509.11791},
-      year={2025}
+      author={Suomela, Lauri and Kuruppu Arachchige, Sasanka and Torres, German F. and Edelman, Harry and Kämäräinen, Joni-Kristian},
+      booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+      year={2026},
+      url={https://arxiv.org/abs/2509.11791},
     }
 
