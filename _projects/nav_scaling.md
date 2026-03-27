@@ -4,10 +4,10 @@ title: Data scaling for navigation in unknown environments
 permalink: /navigation_scaling/
 coauthors: [Suomela, Takahata, Kuruppu Arachchige, Edelman, Kämäräinen]
 affliations: Tampere University
-venue:
+venue: IEEE Robotics and Automation Letters (RA-L)
 arxiv: https://arxiv.org/abs/2601.09444
 github: https://github.com/lasuomela/NavigationScaling
-huggingface_models: 
+huggingface_models: https://huggingface.co/collections/lauriasuo/frodobots
 img: /assets/img/publication_preview/carla.gif
 importance: 1
 category:
@@ -202,10 +202,13 @@ We also experimented with training on the full dataset. We compared the policy t
 <p style="margin-bottom:50px;"></p>
 ### BibTex
 
-    @misc{suomela2026data_scaling,
+    @article{suomela2026data,
       title={Data Scaling for Navigation in Unknown Environments},
       author={Suomela, Lauri and Takahata, Naoki and Kuruppu Arachchige, Sasanka and Edelman, Harry and Kämäräinen, Joni-Kristian},
-      journal={arXiv:2601.09444},
+      journal={IEEE Robotics and Automation Letters},
       year={2026},
+      volume={},
+      number={},
+      pages={1-8},
+      doi={10.1109/LRA.2026.3677718},
     }
-
